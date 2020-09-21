@@ -2,10 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>BigEgg.AspNetCore.HttpActionResults</PackageId>
+    <Authors>BigEgg</Authors>
+    <Company>BigEgg</Company>
+    <Product>BigEgg.AspNetCore.HttpActionResults</Product>
+    <Version>0.1.0</Version>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <RepositoryUrl>https://github.com/BigEggTools/AspNetCore.HttpActionResults</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/BigEggTools/AspNetCore.HttpActionResults</PackageProjectUrl>
+    <PackageTags>AspNetCore, HttpActionResults</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
